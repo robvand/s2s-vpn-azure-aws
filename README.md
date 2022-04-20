@@ -32,7 +32,7 @@ Amazon Web Services
 
 ## Getting Started
 
-Enter your Microsoft Azure SP and information in terraform.tfvars. Terraform.tfvars.example can be used as an example. Execute code lke below.
+Enter your Microsoft Azure SP and AWS credentials in terraform.tfvars. Terraform.tfvars.example can be used as an example. Execute code like below.
 ````
 terraform init
 terraform plan
