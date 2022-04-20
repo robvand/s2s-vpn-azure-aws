@@ -15,14 +15,13 @@ Microsoft Azure
 5. Create a GatewaySubnet
 6. Create a Virtual Network Gateway
 7. Create four VPN connections
+8. MANUAL STEP UNTIL FIXED.
 
-8. MANUAL STEP UNTIL FIXED: In each of the VPN connection configurations, check "Enable Custom BGP Addressess" and:
-
-aws-vpn1-tun1: 169.254.21.2, 169.254.21.6
-aws-vpn1-tun2: 169.254.22.2, 169,254,22,6
-aws-vpn2-tun1: 169.254.21.2, 169.254.21.6
-aws-vpn2-tun2: 169,254.22.2, 169.254.22.6
-
+In each of the VPN connection configurations, check "Enable Custom BGP Addressess" and:
+- aws-vpn1-tun1: 169.254.21.2, 169.254.21.6
+- aws-vpn1-tun2: 169.254.22.2, 169,254,22,6
+- aws-vpn2-tun1: 169.254.21.2, 169.254.21.6
+- aws-vpn2-tun2: 169,254.22.2, 169.254.22.6
 
 Amazon Web Services
 1. Create a transit VPC
