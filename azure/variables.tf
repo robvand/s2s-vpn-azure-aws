@@ -1,0 +1,11 @@
+variable "az_location" {}
+variable "az_client_secret" {}
+variable "az_client_id" {}
+variable "az_subscription_id" {}
+variable "az_tenant_id" {}
+variable "az_rg" {}
+variable "vpn_1_tun_1" {}
+variable "vpn_1_tun_2" {}
+variable "vpn_2_tun_1" {}
+variable "vpn_2_tun_2" {}
+variable "preshared_key" {}
