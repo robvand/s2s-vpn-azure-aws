@@ -1,6 +1,6 @@
 # example environment variables
 
-# Common details
+# Common details (Preshared key for IPSEC)
 preshared_key      = ""
 
 # AWS details
